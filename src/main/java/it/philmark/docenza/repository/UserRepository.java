@@ -13,8 +13,10 @@ public interface UserRepository extends JpaRepository<User, Long> {
 
 	Boolean existsByEmail(String email);
 
-	@Query(value = "select * from users", nativeQuery = true)
-	List<User> getAllUsers();
+	//USIAMO  LA findAll DELLA JPARepository
+
+	/*@Query(value = "select * from users", nativeQuery = true)
+	List<User> getAllUsers();*/
 
     Optional<User> findByEmail(String email);
 
