@@ -1,0 +1,19 @@
+2022-04-26 15:03:44,817 INFO it.philmark.docenza.PhilmarkApplication [main] Starting PhilmarkApplication on DESKTOP-E036ILJ with PID 22948 (C:\Users\Rafael\Documents\spring_philmark\spring_philmark\target\classes started by Rafael in C:\Users\Rafael\Documents\spring_philmark\spring_philmark)
+2022-04-26 15:03:44,820 INFO it.philmark.docenza.PhilmarkApplication [main] No active profile set, falling back to default profiles: default
+2022-04-26 15:03:47,280 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2022-04-26 15:03:47,280 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.33]
+2022-04-26 15:03:47,433 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2022-04-26 15:03:47,678 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-04-26 15:03:47,787 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.12.Final
+2022-04-26 15:03:48,007 INFO org.hibernate.annotations.common.Version [main] HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2022-04-26 15:03:48,151 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2022-04-26 15:03:48,662 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2022-04-26 15:03:48,685 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2022-04-26 15:03:49,681 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-04-26 15:03:50,877 INFO springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping [main] Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-04-26 15:03:51,190 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Context refreshed
+2022-04-26 15:03:51,217 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Found 1 custom documentation plugin(s)
+2022-04-26 15:03:51,245 INFO springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [main] Scanning for api listing references
+2022-04-26 15:03:51,474 INFO it.philmark.docenza.PhilmarkApplication [main] Started PhilmarkApplication in 7.207 seconds (JVM running for 7.835)
+2022-04-26 15:10:09,243 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown initiated...
+2022-04-26 15:10:09,260 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown completed.
