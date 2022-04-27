@@ -31,7 +31,7 @@ public class ProductsController {
         return new ResponseEntity<>(dtoList, HttpStatus.OK);
     }
 
-    @PostMapping("saveProduct")
+    @PostMapping("saveProduct/{descrizione}/{importoCad}")
     public ResponseEntity<?> saveProduct(@RequestBody Products p){
         ProductsDTO productsDTO = productsService.saveProduct(p);
         logger.info("Prodotto Salvato Corretamente: " + productsDTO.toString());
