@@ -1,5 +1,6 @@
 package it.philmark.docenza.models;
 
+
 import lombok.Getter;
 import lombok.Setter;
 
@@ -8,16 +9,17 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
-@Entity
+
 @Getter
 @Setter
-public class Products {
+@Entity //devi mettere entityyyyyy
 
-    @Id
+public class Film {
+    @Id // mi genera la primary key
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
+    private String titolo;
     private String descrizione;
-    private Double importoCad;
 
 }
