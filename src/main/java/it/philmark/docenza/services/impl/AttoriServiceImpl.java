@@ -18,8 +18,8 @@ public class AttoriServiceImpl implements AttoriService {
    @Override
     public List<Attore> getAllAttori() {
         List<Attore> listaAttori = attoriRepository.findAll();
-        List<Attore> attoreList = new ArrayList<>();
-        return attoreList;
+
+        return listaAttori;
     }
 
     @Override

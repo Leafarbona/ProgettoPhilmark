@@ -14,7 +14,7 @@ public class FilmAttori {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    private Double costoAttorePerFIlm;
+    private Double costoAttorePerFilm;
 
     //adesso andremo a sdoppiare la nostra relazione manytomany in due rlazione manytoone
 

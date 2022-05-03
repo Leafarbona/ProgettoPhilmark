@@ -28,4 +28,9 @@ public class FilmAttoriServiceImpl implements FilmAttoriService {
     public FilmAttori associateFilmsToActors(FilmAttori f){
         return filmAttoriRepository.save(f);
     }
+
+    @Override
+    public List<FilmAttori> getAllFilmAndActors() {
+        return filmAttoriRepository.findAll();
+    }
 }

@@ -17,8 +17,7 @@ public class FilmServiceImpl implements FIlmService {
     @Override
     public List<Film> getAllFilms() {
         List<Film> listaFilm = filmRepository.findAll();
-        List<Film> filmList = new ArrayList<>();
-        return filmList;
+        return listaFilm;
     }
 
     @Override

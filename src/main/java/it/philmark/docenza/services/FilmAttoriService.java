@@ -13,6 +13,7 @@ public interface FilmAttoriService {
         FilmAttori associateFilmToActors(FilmAttori f);
 
     FilmAttori associateFilmsToActors(FilmAttori f);
+    List<FilmAttori> getAllFilmAndActors();
 }
 
 
